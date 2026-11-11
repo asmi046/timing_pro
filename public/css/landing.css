@@ -1277,6 +1277,12 @@ body {
 
 .footer-nav {
     display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-nav-row {
+    display: flex;
     flex-wrap: wrap;
     gap: 28px;
 }
